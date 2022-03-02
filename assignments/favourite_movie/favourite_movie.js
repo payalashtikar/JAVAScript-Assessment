@@ -12,6 +12,7 @@ function favouriteMovie(operation, movie) {
         fav_movie.pop(movie);
     }
     return fav_movie;
+    
 }
 
 module.exports = favouriteMovie;
