@@ -1,13 +1,55 @@
 <html>
-    <head>
-        <title>Todo List</title>
-    </head>
-    <body>
-        <div>
-            <input type='text' name='todo_input'>
-            <button type='submit'>Add Todo</button>
-            <div class='todos'></div>
-        </div>
-    </body>
-    <script src='./script.js'></script>
+
+<head>
+    <title>Todo List</title>
+    <style>
+        #container {
+            width: auto;
+            background-color: antiquewhite;
+            padding: 1%;
+            display: flex;
+            text-align: center;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+
+
+        button {
+            padding: 5px;
+            width: 45%;
+            background-color: black;
+            color: white;
+            font-size: medium;
+            border-radius: 5px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        input {
+            width: 50%;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- <input type='text' name='todo_input'> -->
+        <button type='submit'>Add Todo</button>
+        <div class='todos'></div>
+    </div>
+
+    <div id="completed-data" class="column">
+        <button type="submit1">Completed Task</button>
+    </div>
+
+    <div id="pending-data" class="column">
+        <button type="submit2">Pending Task</button>
+    </div>
+</body>
+<script src='./script.js'></script>
+
 </html>
