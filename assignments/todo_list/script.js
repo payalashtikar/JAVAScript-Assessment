@@ -33,7 +33,7 @@ document.querySelector('#all-data').onclick = async function fetchTodos()
     {
         if(todo.completed = false)
         {
-            todo.completed = "Pending-Task"
+            todo.completed = "Pnding-Task"
         }
         else
         {
